@@ -3,12 +3,12 @@
   "image": "mcr.microsoft.com/devcontainers/base:1-debian",
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
-      "version": "17",
-      "jdkDistro": "openjdk",
+      "version": "17.0.17-ms",
+      "jdkDistro": "ms",
       "gradleVersion": "latest",
       "mavenVersion": "latest",
-      "antVersion": "none",
-      "groovyVersion": "none"
+      "antVersion": "latest",
+      "groovyVersion": "latest"
     },
     "ghcr.io/devcontainers/features/python:1": {
       "version": "3.13"

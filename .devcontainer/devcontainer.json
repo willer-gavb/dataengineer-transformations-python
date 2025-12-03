@@ -2,9 +2,9 @@
   "name": "Transformation - Python",
   "image": "mcr.microsoft.com/devcontainers/base:1-debian",
   "features": {
-    "ghcr.io/devcontainers/features/java:1": {
+    "ghcr.io/devcontainers/features/java:1.5.0": {
       "version": "17",
-      "jdkDistro": "temurin",
+      "jdkDistro": "open",
       "gradleVersion": "latest",
       "mavenVersion": "latest",
       "antVersion": "latest",
